@@ -2,13 +2,13 @@ from flask import *
 import pyrebase
 
 config = {
-   "apiKey" : "AIzaSyA4av3lN5gUTSXLSMuBQeigqOZuQiz5fjo",
-    "authDomain": "pythontrial-151b6.firebaseapp.com",
-    "databaseURL": "https://pythontrial-151b6-default-rtdb.firebaseio.com",
-    "projectId": "pythontrial-151b6",
-    "storageBucket": "pythontrial-151b6.appspot.com",
-    "messagingSenderId": "749934275221",
-    "appId": "1:749934275221:web:ff9e8d5201675414ff499c"
+   "apiKey" : "AIzaSyA5z2OR9a_NrvNqPKoBTC1-SB3nnCOvUkI",
+    "authDomain": "skiptheline-gower.firebaseapp.com",
+    "databaseURL": "https://skiptheline-gower-default-rtdb.firebaseio.com",
+    "projectId": "skiptheline-gower",
+    "storageBucket": "skiptheline-gower.appspot.com",
+    "messagingSenderId": "1061111996558",
+    "appId": "1:1061111996558:web:314cd718a578af866769df"
 }
 
 firebase = pyrebase.initialize_app(config)

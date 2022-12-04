@@ -11,11 +11,19 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{{ url_for('static', filename='bs/css/united.min.css') }}"/>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}"/>
-
-
+    
 </head>
 <body>
 
+    <div id="google_translate_element"></div>
+
+    <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+    
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <div class="container-fluid" id="wrapper">
 
     <div class="row" id="homeJumbo">
@@ -366,5 +374,17 @@
 <script src="{{ url_for('static', filename='/bs/js/jquery.min.js') }}"></script>
 <!-- Bootstrap JavaScript -->
 <script src="{{ url_for('static', filename='/bs/js/bootstrap.min.js') }}"></script>
+
+<iframe
+width="200"
+height="200"
+style="border:0"
+class="center"
+loading="lazy"
+allowfullscreen
+referrerpolicy="no-referrer-when-downgrade"
+src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBhpdMaQ4fX3HYHmLOV2lrapuFC0hgeLC8
+  &q=University+Centre,Kelowna+BC">
+</iframe>
 </body>
 </html>
