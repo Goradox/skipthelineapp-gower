@@ -1,6 +1,6 @@
 # Skipthelineapp 
 
-## Updated features in Assignment 3 📝
+## Updated features in Assignment 4 📝
 
 - Export menu pdf in Vendor Menu page with **pdfkit library** integration
    - Enables vendors to export their menus for promotional purposes
