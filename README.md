@@ -1,13 +1,13 @@
 # Skipthelineapp 
 
-## Updated features in Assignment 4 📝
+## Updated features in Individual Project 📝
 
 - A translation function is added in the main index page with **Google Tranlation API** integration
    - Enables the customers to to change the language of the page to their preferred language.
    - Language can be changed with the drop down list on the top of the main page
   
    - Sample Outputs:
-       ![alt text](https://github.com/ubcofood/skipthelineapp-gower/blob/main/sampleoutputs/google_translate.png?raw=true)
+       ![alt text](https://github.com/Goradox/skipthelineapp-gower/blob/main/sampleoutputs/google_translate.png?raw=true)
    
 - Time display on Vendor order page using **pytime library**
   - Allow vendor to view the current time and order times from customers which helps them to prioritize orders based on their time.
