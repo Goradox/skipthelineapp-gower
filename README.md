@@ -1,16 +1,10 @@
 # Skipthelineapp 
 
-## Updated features in Assignment 3 📝
+## Updated features in Assignment 4 📝
 
-- Export menu pdf in Vendor Menu page with **pdfkit library** integration
-   - Enables vendors to export their menus for promotional purposes
-   - Note that this feature requires installation of both pdfkit and wkhtmltopdf packages before running the program, which can be done by running these commands:
-   
-   ```
-   pip install pdfkit
-   brew install wkhtmltopdf // Mac with homebrew installed
-   ```
-   - For windows, download the wkhtmltopdf program on http://wkhtmltopdf.googlecode.com/files/wkhtmltox-0.11.0_rc1-installer.exe and follow the instructions.
+- A translation function is added in the main index page with **Google Tranlation API** integration
+   - Enables the customers to to change the language of the page to their preferred language.
+   - Language can be changed with the drop down list on the top of the main page
   
    - Sample Outputs:
       - See `analytic.pdf` file in the `sampleoutputs` folder
