@@ -7,13 +7,13 @@
    - Language can be changed with the drop down list on the top of the main page
   
    - Sample Outputs:
-      - See `analytic.pdf` file in the `sampleoutputs` folder
+       ![alt text](https://github.com/ubcofood/skipthelineapp/blob/main/sampleoutputs/.png?raw=true)
    
 - Time display on Vendor order page using **pytime library**
   - Allow vendor to view the current time and order times from customers which helps them to prioritize orders based on their time.
   
   - Sample Outputs:
-      ![alt text](https://github.com/ubcofood/skipthelineapp/blob/main/sampleoutputs/Screenshot%202022-11-14%20at%202.15.42%20PM.png?raw=true)
+      ![alt text](https://github.com/ubcofood/skipthelineapp/blob/main/sampleoutputs/google_translate.png?raw=true)
       
 - Time display on checkout pages with UBC ID and Credit/Debit Cards
   - Allow customer to view the current time of ordering and the deadline for user to complete transaction before order gets expired.
