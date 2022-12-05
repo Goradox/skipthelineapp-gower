@@ -7,7 +7,7 @@
    - Language can be changed with the drop down list on the top of the main page
   
    - Sample Outputs:
-       ![alt text](https://github.com/ubcofood/skipthelineapp/blob/main/sampleoutputs/.png?raw=true)
+       ![alt text](https://github.com/ubcofood/skipthelineapp/blob/main/sampleoutputs/google_translate.PNG?raw=true)
    
 - Time display on Vendor order page using **pytime library**
   - Allow vendor to view the current time and order times from customers which helps them to prioritize orders based on their time.
