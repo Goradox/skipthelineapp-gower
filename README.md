@@ -4,13 +4,13 @@
 
 - A translation function is added in the main index page with **Google Tranlation API** integration
    - Enables the customers to change the language of the page to their preferred language.
-   - Language can be changed with the drop down list on the top of the main page
+   - Language can be changed with the drop down list on the top of the main page.
 
    - Sample Outputs:
        ![alt text](https://github.com/Goradox/skipthelineapp-gower/blob/97b5bfb4208d45e347124b10fbb15275f7ba9359/sampleoutputs/google_translate.PNG?raw=true)
        
 - A map function is added in the main index page with **Google Map API** integration
-   - Enables customers to have a map that leads them to the vendors
+   - Enables customers to have a map that leads them to the vendors.
 
    -Sample Outputs:
       ![alt text](https://github.com/Goradox/skipthelineapp-gower/blob/8cd3197ffda1c0900f570936c8170234ef9d13da/sampleoutputs/google_map.PNG?raw=true)
