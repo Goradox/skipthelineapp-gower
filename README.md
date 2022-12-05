@@ -3,61 +3,17 @@
 ## Updated features in Individual Project 📝
 
 - A translation function is added in the main index page with **Google Tranlation API** integration
-   - Enables the customers to to change the language of the page to their preferred language.
+   - Enables the customers to change the language of the page to their preferred language.
    - Language can be changed with the drop down list on the top of the main page
-   https://github.com/Goradox/skipthelineapp-gower/blob/97b5bfb4208d45e347124b10fbb15275f7ba9359/sampleoutputs/google_translate.PNG
+
    - Sample Outputs:
        ![alt text](https://github.com/Goradox/skipthelineapp-gower/blob/97b5bfb4208d45e347124b10fbb15275f7ba9359/sampleoutputs/google_translate.PNG?raw=true)
-   
-- Time display on Vendor order page using **pytime library**
-  - Allow vendor to view the current time and order times from customers which helps them to prioritize orders based on their time.
-  
-  - Sample Outputs:
-      ![alt text](https://github.com/ubcofood/skipthelineapp/blob/main/sampleoutputs/Screenshot%202022-11-14%20at%202.18.07%20PM.png?raw=true)
-      
-- Time display on checkout pages with UBC ID and Credit/Debit Cards
-  - Allow customer to view the current time of ordering and the deadline for user to complete transaction before order gets expired.
-  
-  - Sample Outputs:
-      ![alt text](https://github.com/ubcofood/skipthelineapp/blob/main/sampleoutputs/Screenshot%202022-11-14%20at%202.18.07%20PM.png?raw=true)
-  
-- Export analytic pdf in Vendor/Admin Analytic page with pdfkit library integration
-  - Allow Vendor/Admin to download and export their sales data to print and organize right under the page.
-  
-  - Sample Outputs:
-      ![alt text](https://github.com/ubcofood/skipthelineapp/blob/main/sampleoutputs/Screenshot%202022-11-14%20at%202.16.21%20PM.png?raw=true)
- 
-- Integrated scripts that allows the order panel to refresh page every ten seconds
-  - Allow vendors to see new orders without the need of manually refresh the page, and the system will automatic show new order once customer has placed one.
-  - Sample Outputs:
-      - See video for sample outputs
-      
-- Vendor Page UI fixes
-  - Improved design and layouts, used custom titles and different icon to help user differentiate the pages.
-  - Cancel button on the checkout page allows user to cancel order immediately
-  - Sample Outputs:
-  
-      ![alt text](https://github.com/ubcofood/skipthelineapp/blob/main/sampleoutputs/Screenshot%202022-11-14%20at%202.15.54%20PM.png?raw=true)
-      
-  
-- Firebase Integration - **Pyrebase library**
-  - Allow user to login to the system with pre-registered accounts, firebase allows quick configuration that enable us to register accounts through the portal and manage their data. In Firebase, we store all the information and images needed to run this application. 
-  - To install needed libraries run:
-   ```
-   pip install pyrebase
-   ```
-  - Sample Outputs:
-      - Registered accounts in Firebase
-       ![alt text](https://github.com/ubcofood/skipthelineapp/blob/main/sampleoutputs/firebaseauth.png?raw=true)
-      - Storage of media files in Firebase
-       ![alt text](https://github.com/ubcofood/skipthelineapp/blob/main/sampleoutputs/firebasestorage.png?raw=true)
-      - Firebase NoSQL database (example showing how food items are stored with unique keys)
-       ![alt text](https://github.com/ubcofood/skipthelineapp/blob/main/sampleoutputs/firebasedb.png?raw=true)
-  
-- Email receipts - **ssl and smtp libraries** (come preinstalled with python)
-  - When an order is completed, the system will generate an email receipt that sends to user's email they registrated with. This allow user to view their email receipts without having to saving the entire page.
-  - Sample Outputs:
-       ![alt text](https://github.com/ubcofood/skipthelineapp/blob/main/sampleoutputs/emailreceipt.png?raw=true)
+       
+- A map function is added in the main index page with **Google Map API** integration
+   - Enables customers to have a map that leads them to the vendors
+
+   -Sample Outputs:
+      ![alt text](https://github.com/Goradox/skipthelineapp-gower/blob/8cd3197ffda1c0900f570936c8170234ef9d13da/sampleoutputs/google_map.PNG?raw=true)
 
 
 
